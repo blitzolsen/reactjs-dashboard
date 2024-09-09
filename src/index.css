@@ -1,0 +1,67 @@
+:root {
+  --bebas-neue-regular: "Bebas Neue", system-ui;
+  --pixelify-sans-regular: "Pixelify Sans", sans-serif;
+  --accent-color: 255, 0, 0;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pixelify-sans-regular {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+.headerContainer {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(var(--accent-color), 0.7);
+}
+
+.headerText {
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+.headerBar {
+  background-color: rgba(255, 255, 255, 0.4);
+  flex-direction: row;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.actionBarContainer {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+
+.card-action-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.card-image {
+  width: 100px;
+}
